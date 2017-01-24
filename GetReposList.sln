@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6342DEE-CF81-4F53-90C1-9D682D01C37A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7DEF7A2-33BE-49B5-9EC7-EAA93CF5B792}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GetReposList", "src\GetReposList\GetReposList.xproj", "{BA3B5C86-9C20-4168-BCD9-654DB0A41556}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA3B5C86-9C20-4168-BCD9-654DB0A41556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3B5C86-9C20-4168-BCD9-654DB0A41556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3B5C86-9C20-4168-BCD9-654DB0A41556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3B5C86-9C20-4168-BCD9-654DB0A41556}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA3B5C86-9C20-4168-BCD9-654DB0A41556} = {A6342DEE-CF81-4F53-90C1-9D682D01C37A}
+	EndGlobalSection
+EndGlobal
